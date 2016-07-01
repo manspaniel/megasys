@@ -556,7 +556,7 @@ var TerminalServer = function() {
 	
 	// Load plugins then start listening
 	loadPlugins(function() {
-		self.server.listen(1337);
+		self.server.listen(process.env.PORT || 1337);
 	});
 
 };

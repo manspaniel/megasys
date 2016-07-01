@@ -5,7 +5,7 @@ var ObjectID = mongojs.ObjectId;
 
 var API = function(server) {
 	
-	var db = mongojs('mongodb://localhost/megasys');
+	var db = mongojs(process.env.MONGO_CONN || 'mongodb://localhost/megasys');
 	
 	var self = this;
 	
