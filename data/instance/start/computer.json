@@ -1,0 +1,7 @@
+{
+	"network": {
+		"dans-local": ["192.168.0.2", "dans-comp"],
+		"internet": ["213.17.7.88"]
+	},
+	"hostname": "dan-comp"
+}

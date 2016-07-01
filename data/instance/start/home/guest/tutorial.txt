@@ -1,0 +1,20 @@
+%CYAN%## Welcome! ##%NORM%
+--------------
+
+Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+
+%MAGENTA%1.%NORM% meowington
+%MAGENTA%2.%NORM% blah
+%MAGENTA%3.%NORM% poop 
+%MAGENTA%4.%NORM% faces
+%MAGENTA%5.%NORM% lolololoool
+%MAGENTA%6.%NORM% ok
+
+Aenean lacinia bibendum nulla sed consectetur. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Curabitur blandit tempus porttitor.
+
+%CYAN%# %INVERTED%Async.js%NORM%
+
+Async is a utility module which provides straight-forward, powerful functions
+for working with asynchronous JavaScript. Although originally designed for
+use with [node.js](http://nodejs.org), it can also be used directly in the
+browser. Also supports [component](https://github.com/component/component).
