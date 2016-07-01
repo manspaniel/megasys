@@ -119,12 +119,14 @@ var TerminalNetwork = function(server) {
 			
 			if(err) throw err;
 			groups.forEach(function(group) {
-				group.children.forEach(function(computerDef) {
-					var computer = new TerminalComputer(server);
-					computer.groupName = group.name;
-					computer.init(computerDef);
-					self.indexComputer(computer);
-				});
+				if(group.isFolder) {
+					group.children.forEach(function(computerDef) {
+						var computer = new TerminalComputer(server);
+						computer.groupName = group.name;
+						computer.init(computerDef);
+						self.indexComputer(computer);
+					});
+				}
 			});
 			
 		});
